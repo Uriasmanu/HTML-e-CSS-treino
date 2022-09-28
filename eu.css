@@ -1,0 +1,82 @@
+body{
+    background-color: #a3e3b1;
+    
+}
+header{
+    background-color: #244242;
+    padding: 20px 0;
+}
+.imagem{
+    box-sizing: border-box;
+    border: 3px solid #000000;
+    border-radius: 93px;
+    background: #fcff33;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 78px;
+    right: 0%;
+    text-transform: uppercase;
+    color: #51bd51;
+    font-weight: bold;
+    font-size: 19px;
+  
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 21px;
+}
+.text:hover{
+    color: #fcff56;
+}
+h2{
+    text-align: center;
+    font-size: 32px;
+    padding: 16px;
+    color: #0b9434e8;
+}
+.hobbies{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+   
+}
+
+.hobbies li{
+       display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 13px 19px;
+    box-sizing: border-box;
+    border: 3px solid #000000;
+    border-radius: 33px;
+
+}
+.hobbies li:hover{
+    border: 5px solid #ffee50;
+}
+.hobbies li:hover h3 {
+    font-size: 20px;
+}
+
+.hobbies h3{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 12px;
+    padding: 28px;
+}
+
+.academia{
+    padding: 36px;
+}
+
+.luta{
+    padding: 0;
+}
